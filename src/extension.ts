@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
         const code = editor.document.getText();
 
         try {
-            const response = await axios.post(`https://code-share-back.vercel.app/submit`, { content: code });
+            const response = await axios.post(`https://send-code-back.vercel.app/submit`, { content: code });
 
             if (response.data && response.data.url) {
                 const generatedUrl = response.data.url;

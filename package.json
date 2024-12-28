@@ -1,7 +1,8 @@
 {
-  "name": "sendcode",
-  "displayName": "SendCode",
+  "name": "sendcodeextension",
+  "displayName": "SendCode_extension",
   "description": "Generate and copy link of highlighted code with one shortcut key",
+  "publisher": "pypypy",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
