@@ -3,9 +3,9 @@ Now you can share your code with less typing and improved readability by using t
 
 ## Usage
 1. Open a file in Visual Studio Code.
-2. Press the key combination `Ctrl+Alt+C` while the cursor is on the file.
+2. Press the key combination `Ctrl+Alt+C` while the text cursor is blinking on the file.
 -> The link to a web page highlighting the code in the currently opened file will be copied to your clipboard.
-![start](./pictures/beforectrlaltc.png)![ctrl+alt+c](./pictures/copy.png)![web_ver](./pictures/web.png)
+![start](https://github.com/pypypypy5/sendcode_vsc_extension/blob/master/pictures/beforectrlaltc.png)![ctrl+alt+c](https://github.com/pypypypy5/sendcode_vsc_extension/blob/master/pictures/copy.png)![web_ver](https://github.com/pypypypy5/sendcode_vsc_extension/blob/master/pictures/web.png)
 
 ## Features
 - **Code Highlighting:** Automatically creates a web page highlighting the code from the currently opened file in Visual Studio Code.

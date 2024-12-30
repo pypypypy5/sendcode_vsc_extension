@@ -3,11 +3,14 @@
   "displayName": "SendCode_extension",
   "description": "Generate and copy link of highlighted code with one shortcut key",
   "publisher": "pypypy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": ">=0.44.9"
   },
-
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/pypypypy5/sendcode_vsc_extension"
+  },
   "categories": [
     "Other"
   ],
