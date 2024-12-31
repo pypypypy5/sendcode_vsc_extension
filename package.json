@@ -1,9 +1,9 @@
 {
   "name": "sendcodeextension",
   "displayName": "SendCode_extension",
-  "description": "Generate and copy link of highlighted code with one shortcut key",
+  "description": "Copy link of highlighted code with ctrl+alt+c",
   "publisher": "pypypy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": ">=0.44.9"
   },

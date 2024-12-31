@@ -9,6 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
     console.log('CodeShare extension activated'); // 활성화 로그
     let disposable = vscode.commands.registerCommand('codeshareExtension.sendCode', async () => {
         console.log('Send Code command executed'); // 명령어 실행 로그
+        vscode.window.showInformationMessage(`Loading... (SendCode)`); // 실행중임 알림
         const editor = vscode.window.activeTextEditor;
 
         if (!editor) {

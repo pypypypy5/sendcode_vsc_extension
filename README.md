@@ -1,5 +1,5 @@
 ## Strengthen your Ctrl+c!
-Now you can share your code with less typing and improved readability by using this extension and its integrated webpage.
+Now you can share your code with **Less Typing and Improved Readability** by using this extension and its integrated webpage.
 
 ## Usage
 1. Open a file in Visual Studio Code.
