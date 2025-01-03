@@ -3,7 +3,7 @@
   "displayName": "SendCode_extension",
   "description": "Copy link of highlighted code with ctrl+alt+c",
   "publisher": "pypypy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": ">=0.44.9"
   },

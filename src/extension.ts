@@ -17,7 +17,18 @@ export function activate(context: vscode.ExtensionContext) {
             return;
         }
 
-        const code = editor.document.getText();
+        let code: string;
+
+        const selection = editor.selection;
+        const selectedText = editor.document.getText(selection).trim();
+        
+        //사용자가 선택한 코드 있는지 확인. 없으면 전체 코드를 보낼 대상으로 선택
+        if (selectedText.length > 0) {
+        code = selectedText;
+        } else {
+        code = editor.document.getText();
+        }
+
 
         try {
             const response = await axios.post(`https://send-code-back.vercel.app/submit`, { content: code });
